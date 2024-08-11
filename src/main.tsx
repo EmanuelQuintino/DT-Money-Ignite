@@ -4,12 +4,16 @@ import { ThemeProvider } from "styled-components";
 import { defaultTheme } from "./styles/theme";
 import { GlobalStyle } from "./styles/global";
 import { Transactions } from "./pages/Transactions";
+import { TransactionsProvider } from "./contexts/TransactionsContext";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ThemeProvider theme={defaultTheme}>
-      <Transactions />
       <GlobalStyle />
+
+      <TransactionsProvider>
+        <Transactions />
+      </TransactionsProvider>
     </ThemeProvider>
   </React.StrictMode>
 );
