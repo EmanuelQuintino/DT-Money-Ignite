@@ -47,7 +47,12 @@ export const NewTransactionModalContainer = styled(Dialog.Content)`
       margin-top: 2.4rem;
       cursor: pointer;
 
-      &:hover {
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      &:not(:disabled):hover {
         background: ${({ theme }) => theme["green-700"]};
         transition: background 200ms;
       }
