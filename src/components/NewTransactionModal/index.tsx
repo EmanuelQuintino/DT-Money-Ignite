@@ -18,7 +18,7 @@ const newTransactionFormSchema = z.object({
   type: z.enum(["income", "outcome"]),
 });
 
-type newTransactionFormInputs = z.infer<typeof newTransactionFormSchema>;
+export type newTransactionFormInputs = z.infer<typeof newTransactionFormSchema>;
 
 export function NewTransactionModal() {
   const {
