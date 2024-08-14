@@ -1,7 +1,7 @@
 {
   "transactions": [
     {
-      "id": 1,
+      "id": "1",
       "description": "Desenvolvimento de site",
       "type": "income",
       "category": "Venda",
@@ -9,12 +9,28 @@
       "createdAt": "2022-07-29T19:36:44.505Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "description": "Hambúrguer",
       "type": "outcome",
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2022-07-29T19:30:44.505Z"
+    },
+    {
+      "id": "5eaa",
+      "description": "Desenvolvimento de App",
+      "category": "App",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2024-08-14T15:52:13.966Z"
+    },
+    {
+      "id": "1139",
+      "description": "Iorgute de Banana",
+      "category": "Alimentação",
+      "price": 4,
+      "type": "outcome",
+      "createdAt": "2024-08-14T16:17:44.296Z"
     }
   ]
 }
