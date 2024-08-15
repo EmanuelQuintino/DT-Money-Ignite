@@ -23,14 +23,6 @@
       "price": 10000,
       "type": "income",
       "createdAt": "2024-08-14T15:52:13.966Z"
-    },
-    {
-      "id": "1139",
-      "description": "Iorgute de Banana",
-      "category": "Alimentação",
-      "price": 4,
-      "type": "outcome",
-      "createdAt": "2024-08-14T16:17:44.296Z"
     }
   ]
 }
